@@ -1,109 +1,78 @@
-package Modul76;
- 
-public class Hash {
-    public static int[] arrayData;
-    int arraySize;
+package TugasHeap;
+
+public class Heap {
+    int nMax = 100000;
+    Maskapai[] flight;
+    public Heap(){
+        flight = new Maskapai[nMax];
+    }
+    public void enqueue(Maskapai input,int i){
+        if(i==0) {flight[0]=input;}
+        else {
+            flight[i]=input;   
+            while (i>0 && flight[(i-1)/2].getQueue() < flight[i].getQueue()){
+              tukar(i, (i-1)/2);
+              i = (i-1)/2;
+              for(int j=0;j<=i;j++){
+                  if(flight[i].getQueue()==flight[j].getQueue()){
+                      tukar(i,j);
+                      break;
+                  }
+              }
+            }
+            
+        }
+    }
+    public void tukar(int i, int j){
+        Maskapai temp;
+        temp = flight[i];
+        flight[i] = flight[j];
+        flight[j] = temp; 
+    }
+    public void maxheap(int i,int n){
+     int left,right,largest;      
+        left = 2*i+1;
+        right = 2*i+2;
+        if(left <n && flight[left].getQueue() > flight[i].getQueue())
+        	largest=left; 
+        else
+        	largest=i;
+        if(right <n && flight[right].getQueue() > flight[largest].getQueue())
+        	largest=right;
+        
+        if(largest!=i){
+            tukar(i,largest);
+            maxheap(largest,n);
+        }
+    }
+    public void removeMax(int n){
+        int a;
+        cetak2(0);
+        flight[0] = flight[n-1];
+        flight[n-1] = null;
+        a=0;
+        n--;
+        for(int i=0;i<n;i++){
+            maxheap(i,n);
+        }
     
-    public Hash(int size) {
-        arraySize = size;
-        arrayData = new int[size];
-        for(int i = 0; i < size; i++) {
-        arrayData[i] = -1;
-        }
     }
-    public int modMethod(int hashvalue, int sizehash) {
-        int index = hashvalue%sizehash;
-        return index;
+    public void cetak(int n){
+        System.out.println();
+        for(int i=0;i<n;i++){
+            System.out.println("------------");
+            System.out.println("Nama Maskapai    : "+flight[i].getNama());
+            System.out.println("Kode Penerbangan : "+flight[i].getNomor());
+            System.out.println("Kota Tujuan      : "+flight[i].getKota());
+        }   
+        System.out.println();
     }
- 
-    public boolean ifArrayFull(int[] array) {
-        for(int i = 0; i < arraySize; i++) {
-            if (array[i] == -1) {
-                return false;
-            }
-        }
-        return true;
+    public void cetak2(int n){
+    	System.out.println("------------");
+        System.out.println("Nama Maskapai    : "+flight[n].getNama());
+        System.out.println("Kode Penerbangan : "+flight[n].getNomor());
+        System.out.println("Kota Tujuan      : "+flight[n].getKota());
     }
- 
-    public void insert1(int key) { //linear probing
-        int indexArr = modMethod(key, arraySize);
-        if (ifArrayFull(arrayData)) {
-            System.out.println("Array Full!");
-        }
-        else {
-            while(arrayData[indexArr] != -1){
-                indexArr += 1;
-                if(indexArr == arraySize){ 
-                    indexArr = 0;
-                }
-            }
-            arrayData[indexArr] = key;
-        }
-    }
- 
-    public void insert2(int key) { //quadratic probing
-        int indexArr = modMethod(key, arraySize);
-        int i = 1;
-        if (ifArrayFull(arrayData)) {
-            System.out.println("Array Full!");
-        }
-        else {
-            while(arrayData[indexArr] != -1){
-                indexArr += i*i;
-                
-                if(indexArr == arraySize){
-                    indexArr = 0;
-                }
-                else if(indexArr >= arraySize){
-                    indexArr = indexArr % arraySize;
-                }
-                i++;
-            }
-            arrayData[indexArr] = key;
-        }
-    }
- 
-    public void insert3(int key) { //double hashing
-        int index1 = modMethod(key, arraySize);
-        int index2 = (11-(key%11))%arraySize;
-        if(ifArrayFull(arrayData)){
-            System.out.println("Array Full!");
-        }
-        else {
-            int indexNext = index1;
-            while(arrayData[indexNext] != -1 ){
-                int i = 1;
-                indexNext = index1 + (i * index2);
-                if(indexNext == arraySize){
-                    indexNext=0;
-                }
-                else if(indexNext >= arraySize){
-                    indexNext = indexNext % arraySize;
-                }
-                i++;
-            }
-            arrayData[indexNext]=key;
-        }
-    } 
-    public static void main(String[] args) {
-        Hash theFunc = new Hash(29);
-        theFunc.insert3(10); 
-        theFunc.insert3(20);
-        theFunc.insert3(30); 
-        theFunc.insert3(40);
-        theFunc.insert3(50); 
-        theFunc.insert3(8);
-        theFunc.insert3(60); 
-        theFunc.insert3(15);
-        theFunc.insert3(30); 
-        theFunc.insert3(45);
-        theFunc.insert3(11); 
-        theFunc.insert3(13);
-        theFunc.insert3(17); 
-        theFunc.insert3(19);
-        theFunc.insert3(100);
-        for (int data : arrayData) {
-            System.out.print(data + " ");
-        }
-    }
+
 }
+
