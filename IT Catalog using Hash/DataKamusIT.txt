@@ -1,0 +1,468 @@
+account
+akun
+address
+alamat 
+apply
+terapkan
+ascending
+menanjak, urut naik
+attachment
+lampiran 
+auto-replay	
+putar ulang otomatis
+auto-reply
+balasan otomatis
+back
+balik, belakang, kembali 
+back up
+cadangan
+background
+latar belakang
+band
+pita
+bandwidth
+lebar pita
+batch
+tumpak
+browse
+ramban, jelajah
+browsers
+peramban, penjelajah
+buffer
+penyangga
+button
+tombol
+byte
+bita
+cache memory
+memori tembolok/singgahan
+cancel
+batal
+capacity
+kapasitas
+capslock
+kancing kapital
+caption
+takarir
+card
+kartu
+cartridge
+kartrid, selongsong, patrun
+cell
+sel
+channel
+saluran, kanal
+character
+aksara; karakter
+chart
+bagan
+chatting
+rumpi, bicara, obrol
+clear
+bersih, bersihkan
+click
+klik
+client
+klien
+close
+tutup
+column
+kolom
+comments
+komentar
+computer
+komputer
+content
+isi
+convert
+ubah
+copy
+salin, kopi
+count
+cacah
+crack
+rengkah
+cracker
+perengkah
+cursor
+kursor
+cut
+potong
+cyberspace
+dunia maya
+data
+data
+database
+basis data
+datasheet
+lembar data
+delete
+hapus
+delivery
+pengiriman
+descending
+menurun, urut turun
+design
+desain, rancangan
+digit
+digit
+digital
+sal
+direct
+langsung
+directory
+direktori
+disc
+disket, cakram, diska
+disk drive
+penggerak disket, penggerak cakram
+disk memory
+memori disket, memori cakram
+diskette
+disket
+display
+tayangan
+document
+dokumen
+domain
+ranah
+down
+anjlok
+download
+unduh
+drag
+seret
+draw
+gambar,lukis
+dummy
+tiruan
+edit
+edit, sunting, ubah
+electronic mail
+surat elektronik
+email
+surel
+emoticon
+ikon emosi
+end
+selesai, tamat
+enter
+enter
+entry
+entri
+error
+galat
+escape
+hindar, keluar balik
+exit
+keluar
+explorer
+penjelajah
+export
+ekspor
+file
+berkas
+filter
+tapis, filter
+filtering
+penapisan
+find
+cari, temukan
+floppy disk
+disket liuk, cakram liuk
+folder
+pelipat
+font
+huruf, fonta
+format
+format
+forward
+depan, teruskan
+fungsi hash
+fungsi untuk mengkonversikan data ke nomor posisi tertentu
+gigabyte
+gigabita
+hack
+retas
+hacker
+peretas
+hang
+macet
+hard disk
+cakram keras
+hardware
+perangkat keras
+header
+tajuk
+home
+beranda
+inbox
+kotak masuk
+informatics
+informatika
+information
+informasi
+information technology
+teknologi informasi (TI)
+input
+masukan
+insert
+sisip
+install
+instal
+interface
+antarmuka
+intranet
+intranet
+key
+kunci, tombol
+keyboard
+papan ketik, papan tombol
+keypad
+bantalan kunci
+kilobyte
+kilobita
+launch
+luncur
+links
+taut
+list
+senarai
+load
+muat
+log in
+log masuk
+log off
+log keluar
+mail
+surat
+mailbox
+kotak surat
+megabyte
+megabita
+memo
+memo
+memory
+memori
+menu
+menu
+merge
+gabung
+message
+pesan
+modem
+modem
+monitor
+monitor
+motherboard
+papan induk
+mouse
+tetikus
+multimedia
+multimedia
+network
+jaringan
+networking
+jejaring
+object
+objek
+off
+padam
+offline
+terputus, luar jaingan (luring)
+ok
+oke
+on
+hidup, on
+online
+terhubung, tersambung, dalam jaringan (daring)
+open
+buka
+operating system
+sistem operasi (SO)
+option
+opsi, pilihan
+outline
+kerangka, ragangan
+output
+keluaran
+password
+sandi lewat, kata sandi
+paste
+pasta, rekat, tempel
+pause
+jeda
+personal computer
+komputer pribadi 
+pixel
+piksel
+power
+daya
+preview
+pratilik
+print
+cetak
+print out
+cetakan
+print preview
+pratilik cetak
+printer
+pencetak
+process
+proses
+processor
+pemroses, prosesor
+program
+program
+programmer
+pemrogram, programer
+prompt
+siap ketik
+protocol
+protokol
+query
+permintaan, kueri
+quit
+keluar
+RAM
+memori akses acak
+ROM
+memori baca-saja
+reader
+pembaca
+ready
+siap
+receipt
+menerima
+record
+utas, rekam
+redo
+jadi lagi
+remove
+hapus
+rename
+ganti nama, nama ulang
+repeat
+ulang
+replace
+ganti
+replication
+replikasi
+reply
+jawab, balas
+reply all
+jawab semua, balas semua
+restart
+start ulang
+restore
+simpan ulang
+resume
+teruskan lagi
+retry
+coba lagi
+return
+kembali
+ruler
+mistar
+save
+simpan, amankan
+save as
+simpan sebagai
+scan
+pindai
+scanner
+pemindai
+screen
+layar
+scroll
+gulung
+search
+telusur
+security
+keamanan
+send
+kirim
+server
+peladen, server
+setting
+penataan
+setup
+tata
+sheet
+lembar
+shift
+alih
+shut down
+tutup padam
+signature
+tanda tangan
+sleep
+pudar
+slide
+salindia
+slot
+slot
+SMS
+pesan pendek (sandek)
+software
+perangkat lunak
+space
+spasi, ruang
+standby
+siaga
+start
+mulai
+start up
+hidupkan
+stop
+stop, henti
+symbol
+simbol
+table
+tabel
+template
+templat
+terminal
+terminal
+text
+teks
+voice
+suara
+image
+citra
+video
+video
+theme
+tema
+thread
+ulir
+trace
+runut
+track
+lintas, jalur
+transfer
+transfer
+undo
+tak jadi
+up
+ungguh
+update
+mutakhir
+upload
+unggah
+user
+pengguna
+user interface
+antarmuka pengguna
+voice mail
+surat suara
+web pages
+halaman web
+whole page
+halaman utuh
+window
+jendela
+wireless
+nirkabel 
+zoom
+zum
