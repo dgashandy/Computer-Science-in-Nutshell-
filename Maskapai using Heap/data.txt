@@ -1,0 +1,40 @@
+Air Asia
+12345678
+3
+Singapura
+Batik Air
+21330483
+9
+Yogyakarta
+Citilink
+34120928
+4
+Yogyakarta
+NAM Air
+44902731
+5
+Kuala Lumpur
+Trans Nusa
+57862123
+7
+Medan
+Garuda Indonesia
+67349233
+2
+Jakarta
+Citilink
+33552311
+6
+Jakarta
+Air Asia
+43678910
+8
+Surabaya
+Lion Air
+85673403
+1
+Medan
+Garuda Indonesia
+13456799
+10
+Surabaya
